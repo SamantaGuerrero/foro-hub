@@ -1,0 +1,1 @@
+package com.alura.forohub.dto.topico; import jakarta.validation.constraints.*; public class UpdateTopicoDTO { @NotBlank private String titulo; @NotBlank private String mensaje; public String getTitulo(){return titulo;} public void setTitulo(String v){this.titulo=v;} public String getMensaje(){return mensaje;} public void setMensaje(String v){this.mensaje=v;} }

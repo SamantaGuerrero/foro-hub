@@ -1,0 +1,1 @@
+INSERT INTO usuarios (nombre, email, password, role) VALUES ('Admin', 'admin@forohub.com', '$2a$10$CwTycUXWue0Thq9StjUM0uJ8tBq8YcYVQwE1wC0G2JQKp9wV6Yzi2', 'ADMIN') ON CONFLICT DO NOTHING;

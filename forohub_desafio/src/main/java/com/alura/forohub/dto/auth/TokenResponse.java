@@ -1,0 +1,1 @@
+package com.alura.forohub.dto.auth; public class TokenResponse { private String token; public TokenResponse(String t){this.token=t;} public String getToken(){return token;} }
